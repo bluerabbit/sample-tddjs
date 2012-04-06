@@ -1,0 +1,36 @@
+JsTestDriver
+=============
+
+JsTestDriverを試してみる
+
+Usage
+-----
+
+server
+    java -jar JsTestDriver-1.3.4.b.jar --port 4224
+
+browser
+    http://localhost:4224
+
+client
+    java -jar JsTestDriver-1.3.4.b.jar --tests all
+
+
+Usage jstdutil
+-----
+
+bundle install
+
+server
+    jstestdriver --port 4224
+
+browser
+    http://localhost:4224
+
+client
+    jstestdriver --tests all
+or
+    jsautotest
+
+option
+    jstestdriver --config path/to/file.conf --tests all
